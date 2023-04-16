@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: roboto;
+}
+main {
+  display: flex;
+  margin: 100px;
+}
+.text {
+  font-size: 24px;
+  font-style: normal;
+  font-family: roboto-light;
+}
+.image1 {
+}
+footer {
+  display: flex;
+  margin: 100px;
+}
+.foot-text1 {
+  flex-grow: 1;
+}
+.foot-text2 {
+  flex-grow: 1;
+}
+.foot-text3 {
+  flex-grow: 1;
+}
+.imageitem {
+  flex-grow: 1;
+}
+.last-text {
+  display: flex;
+  font-family: roboto-light;
+}
+@media (max-width: 375px) {
+  .imageitem {
+    display: none;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  main {
+    flex-direction: column;
+  }
+}
+@media (min-width: 375px) and (max-width: 830px) {
+  .imageitem {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+}
